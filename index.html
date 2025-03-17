@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify - Web Player: Music for everyone</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="assets/font/spotifymix-regular/style.css">
+    <!-- <link rel="stylesheet" href="css/utility.css"> -->
+</head>
+
+<body>
+    <div class="topBar">
+        <div class="logo">
+            <img src="assets/svgs/logo.svg" alt="Logo">
+        </div>
+        <div class="install">
+            Made By: Aadim Gyawali
+        </div>
+        <div class="nav">
+            <button>    
+                <img src="assets/svgs/home.svg" alt="Home">
+            </button>
+
+            <div class="search">
+                <img src="assets/svgs/search.svg" alt="">
+                <input type="search" name="" id="searchInput" placeholder="What do you want to play?">
+            </div>
+        </div>
+
+
+
+        <div class="navButtons">
+
+            <button>Explore Premium</button>
+            <div class="install">
+                <img src="assets/svgs/install.svg" id="installSVG" alt="Install">
+                Install App
+            </div>
+            <img src="assets/svgs/notification.svg" alt="Notification" id="notification">
+            <img src="assets/imgs/user.jpg" alt="User Profile" id="User">
+        </div>
+    </div>
+
+    <div class="content">
+        <div class="library">
+            <div id="hamburgerButton">
+                <img id="libraryButton"src="assets/svgs/library.svg" alt="Library">
+                <span>Your Library</span>
+            </div>
+            <div class="librarySearch">
+                <img src="assets/svgs/search.svg" alt="">
+                <input type="search" name="" id="librarySearchInput" placeholder="Search In your Library">
+            </div>
+
+
+            <div class="albumsLibrary">
+                <!-- <div class="albumIn">
+
+                    <div id="coverIn">
+                        <img src="albums/Balen/cover.jpg" a lt="">
+                    </div>
+
+                    <div class="infoIn">
+                        <div id="folderName" style="display:none;"></div>
+                        <div class="artistNameIn">
+                            <h2>Balen</h2>
+                        </div>
+                        <div class="detailsIn">
+                            Artist
+                        </div>
+                    </div>
+                    <img id="artistPlay" src="assets/svgs/arrowRight.svg" alt="">
+                </div> -->
+                <!-- <div class="albumIn">
+
+                    <div id="coverIn">
+                        <img src="albums/The Weeknd/cover.jpg" alt="">
+                    </div>
+
+                    <div class="infoIn">
+
+                        <div class="artistNameIn">
+                            <h2>The Weeknd</h2>
+                        </div>
+                        <div class="detailsIn">
+                            Artist
+                        </div>
+                    </div>
+                    <img id="artistPlay" src="assets/svgs/arrowRight.svg" alt="">
+                </div> -->
+
+            </div>
+        </div>
+
+        <div class="artistInfo">
+
+            <!-- <div class="header">
+                <div class="coverOut">
+                    <img src="albums/The Weeknd/cover.jpg" alt="">
+
+                </div>
+                <div class="infoOut">
+                    <h1>The Weeknd</h1>
+                </div>
+
+
+            </div>
+            <img src="assets/music.gif" alt="">
+            <div class="songsList">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>#</th>
+                            <th>Title</th>
+                            <th>Duration</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>Can't Feel My Face</td>
+                            <td>5 min</td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>Save Your Tears</td>
+                            <td>8 min</td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>Blinding Lights</td>
+                            <td>12 min</td>
+                        </tr>
+                        <tr>
+                            <td>4</td>
+                            <td>Starboy</td>
+                            <td>10 min</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div> -->
+        </div>
+
+    </div>
+
+    <div class="nowPlayingWidget">
+        <div class="nowPlayingSong">
+            <img src="" alt="" >
+            <div>
+                <div class="songNameWidget"></div>
+                <span id="dot"></span>
+                <div class="songArtistWidget"></div>
+            </div>
+        </div>
+
+        <div class="playerControl">
+            <div class="controls">
+                <img id="shuffle" src="assets/svgs/shuffle.svg" alt="shuffle">
+                <img id="previous" src="assets/svgs/previous.svg" alt="Play Before">
+                <img id="play" src="assets/svgs/play.svg" alt="Play/Pause">
+                <img id="next" src="assets/svgs/next.svg" alt="PLay Next">
+                <img id="repeat" src="assets/svgs/repeat.svg" alt="Repeat">
+            </div>
+            <div class="range">
+                <h3 id="currentTime">00:00</h3>
+                <input type="range" name="" id="timeControl">
+                <h3 id="remainingTime">00:00</h3>
+            </div>
+
+        </div>
+
+        <div class="volumeControl">
+            <img src="assets/svgs/unmute.svg" alt="volume">
+            <input type="range" name="" id="volume">
+        </div>
+
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
+

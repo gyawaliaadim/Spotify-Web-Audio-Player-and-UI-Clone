@@ -1,0 +1,23 @@
+{
+  "name": "spotify-clone",
+  "version": "1.0.0",
+  "description": "Spotify Clone made by: Aadim Gyawali",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gyawaliaadim/Spotify-Clone.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gyawaliaadim/Spotify-Clone/issues"
+  },
+  "homepage": "https://github.com/gyawaliaadim/Spotify-Clone#readme",
+  "dependencies": {
+    "http-server": "^14.1.1"
+  }
+}

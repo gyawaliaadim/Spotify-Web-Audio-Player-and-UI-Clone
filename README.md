@@ -16,16 +16,16 @@ C:\Users\User 1> cd C:\Users\User 1\Spotify Clone
 
 <br>
 
-After that you get inside that folder, Now type npx http-server <br>
+After that you get inside that folder, Now type http-server <br>
 ```console
-C:\Users\User 1\Spotify Clone> npx http-server
+C:\Users\User 1\Spotify Clone> http-server
 ```
 
 <br>
 You will get something like this:<br>
 
 ```console
-C:\Users\User 1\Spotify Clone> npx http-server
+C:\Users\User 1\Spotify Clone> http-server
 Starting up http-server, serving ./
 
 http-server version: 14.1.1

@@ -1,30 +1,30 @@
-# Spotfiy-Clone
-Spotify Clone made by: Aadim Gyawali
+![image](https://github.com/user-attachments/assets/0d2b269f-6a5c-48bb-97d0-42aae9ff6c45)
 
-<P>Make sure you have <b>Node Js</b> installed in your computer.</P>
-<br>
-<P>Go inside the folder containing index.html and copy its path, for example : "C:/users/user1/Spotify-Clone", <br> Press <b>Window + R</b> type <B>cmd</B> and hit enter.<br>
-<br>
-  <b>Make sure not to open the folder in powershell</b>
-  <br>
-  <br>
-Type cd "path-of-folder-containing-index.html" Like this:
 
-```console
+# Spotify Clone
+
+**Made by:** Aadim Gyawali
+
+---
+
+## Setup Instructions
+
+Make sure you have **Node.js** installed on your computer.
+
+Navigate to the folder containing `index.html` and copy its path (e.g., `C:/users/user1/Spotify-Clone`).
+
+Press `Windows + R`, type `cmd`, and hit enter.
+
+**Important:** Make sure not to open the folder in PowerShell.
+
+---
+
+## Step 1: Change Directory
+
+In the command prompt, type the following to navigate to the folder:
+
+```bash
 C:\Users\User 1> cd C:\Users\User 1\Spotify Clone
-```
-
-<br>
-
-After that you get inside that folder, Now type http-server <br>
-```console
-C:\Users\User 1\Spotify Clone> http-server
-```
-
-<br>
-You will get something like this:<br>
-
-```console
 C:\Users\User 1\Spotify Clone> http-server
 Starting up http-server, serving ./
 
@@ -44,19 +44,30 @@ Available on:
   http://192.168.1.81:8080
 ```
 
-After that, click on http://192.168.1.81:8080 or any other url that you get and you can use the website.<br>
+<br>
 
-You can add more Artists, Playlist etc by just going Inside albums folder and adding a folder like this:<br>
-<br>
-<b>Name - Type</b>
-<br>
-For example:
-<br>
-<b>The Weeknd - Artist</b> or <br>
-<b>Favorites - Playlist</b> <br>
-you can put all your <b> .mp3 </b> extension song files inside of it, and you can include a cover photo by adding : cover.jpg<br>
-If you don't add cover.jpg, the program will automatically put a playlist img instead of the cover.
-<br>
-<h2>This is my second project of Web Development Made with HTML, CSS and Javascript.</h2><br>
-<h3>-Aadim Gyawali</h3>
-</P>
+go to that link and use it!
+
+## Step 2: Adding Your Own Content
+Artists & Playlists:
+To add more content:
+
+i) Go inside the albums folder.
+
+ii) Create a new folder following the naming convention: Name - Type
+Examples:
+
+The Weeknd - Artist
+or,
+Favorites - Playlist
+
+iii) Place your .mp3 song files inside the folder.
+
+iv) Optionally, include a cover photo named cover.jpg. If omitted, a default playlist image will be used.
+
+hope you find it interesting!
+
+IMG:
+![image](https://github.com/user-attachments/assets/f10c6171-2a42-4788-9c22-26aa9aadd9e3)
+
+## -Aadim Gyawali

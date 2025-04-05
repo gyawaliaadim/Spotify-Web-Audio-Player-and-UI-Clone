@@ -6,6 +6,10 @@
 **Made by:** Aadim Gyawali
 
 ---
+## Info:
+It is an actual clone spotify clone which can play music, with similar UI.<br>
+
+What makes it so special is that I made it without watching a Youtube tutorial or anything else like my previous Netflix Clone, used AI when stuck though.
 
 ## Setup Instructions
 
